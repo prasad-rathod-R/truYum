@@ -1,0 +1,272 @@
+/*this style working as heade for all webpages*/
+header {
+    top: 0%;
+    background-color: #404da3;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-size: 30px;
+    height: 6%;
+}
+/*this style working as img for all webpages*/
+img {
+    top: 1%;
+    position: fixed;
+    left: 8%;
+    height: 5%;
+}
+
+table {
+    top: 13%;
+    min-width: 60%;
+    position: fixed;
+    left: 7%;
+    font-size: 20px;
+    height: 19%;
+}
+
+.items {
+    top: 8%;
+    position: fixed;
+    left: 7.9%;
+    height: 6%;
+}
+/*this style is working for menu-item-list-customer-notification.html webpage*/
+.alert-message-for-notification {
+    top: 15%;
+    position: fixed;
+    left: 24%;
+    color: #32d172;
+	font-weight:bold;
+}
+
+.cart {
+    top: 12%;
+    position: fixed;
+    left: 8%;
+    font-size: 30px;
+    font-family: Arial;
+}
+/*this css is for cart.html webpage*/
+.cart-table {
+    top: 20%;
+    position: fixed;
+    left: 8%;
+}
+
+.truYum {
+    top: -1.5%;
+    position: fixed;
+    font-family: Arial;
+    font-size: 30px;
+    left: 2%;
+    color: #f7f5f5;
+}
+/*this is used for menu */
+.menu {
+    top: 2%;
+    position: fixed;
+    font-family: calibri;
+    font-size: 19px;
+    left: 86%;
+    height: 5%;
+    color: #f7f5f5;
+}
+/*this style working under cart-empty webpage*/
+.cart {
+    top: 2%;
+    position: fixed;
+    font-family: calibri;
+    font-size: 19px;
+    left: 92%;
+    height: 5%;
+    color: #f7f5f5;
+}
+/*this style is used for footer section*/
+footer {
+    bottom: 0%;
+    background-color: #686962;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    font-size: 14px;
+}
+/*this style is used for edit*/
+.edit {
+    top: 12%;
+    position: fixed;
+    left: 4%
+}
+/*this style working under cart-empty webpage*/
+.for-Message {
+    top: 19%;
+    font-size: 14px;
+    color: green;
+    position: fixed;
+    left: 4%;
+    font-weight: Bold;
+}
+/*this style working under cart-empty webpage*/
+.cart1-empty {
+    top: 12%;
+    position: fixed;
+    left: 4%;
+    font-size: 22px;
+}
+
+/*this style working as style for edit-menu-items-for-admin-list webpage*/
+.submit {
+    bottom: 52%;
+    background-color: #2b20a8;
+    font-size: 26px;
+    font-family: arial;
+    font-style: normal;
+    color: white;
+}
+/*this style working as style for menu-items-for-customer-list webpage*/
+.for-menu-item-list-customer {
+    top: 8%;
+    position: fixed;
+    left: 7.9%;
+    height: 6%;
+    font-size: 30px;
+}
+/*this style working as item-menu-list-for-customer table in menu-item-list-customer webpages*/
+.items-menu-list-for-customer {
+    top: 17%;
+    position: fixed;
+    left: 7.9%;
+    height: 10%;
+}
+/*this style working as style for menu-items-for-admin-list webpage*/
+.menu-items-for-admin-list{
+    top: 8%;
+    position: fixed;
+    left: 7.9%;
+    height: 6%;
+    font-size: 30px;
+}
+/*this style working as style for menu-items-for-admin-list webpage*/
+.for-Tables {
+    top: 17%;
+    position: fixed;
+    left: 7.9%;
+    height: 10%;
+}
+/*this style is used in edit menu item  web page*/
+.Edit-menu-itm {
+    top: 8%;
+    position: fixed;
+    left: 7.9%;
+    height: 6%;
+    font-size: 30;
+}
+/*this style is used under cart-notification webpage*/
+.cart-notification1 {
+    top: 16%;
+    color: #32a852;
+    position: fixed;
+    left: 14%;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: Bold;
+}
+/*this style is working for menu-item-list-customer-notification.html webpage*/
+.cart-notification-for-table {
+    top: 23%;
+    position: fixed;
+    left: 6.7%;
+    min-width: 40%;
+	font-family:calibri;
+}
+/*this style working under cart-notification*/
+.crt-for-notification {
+    top: 12%;
+    font-size: 25px;
+    position: fixed;
+    left: 6.7%;
+    font-style: Bold;
+}
+/*this table working under edit item menu webpage*/
+.table-in-edit-menu {
+    top: 17%;
+    position: fixed;
+    left: 7.9%;
+    height: 10%;
+}
+/*for edit menu item status*/ /*where mit refers to menu item*/
+.edit-for-status{
+    top: 12%;
+    position: fixed;
+    font-size: 29;
+    left: 4%;
+    font-size: 22px;
+}
+/*this style working under duisplaying the message in Csutomer webpage*/
+.for-message-display{
+    top: 19%;
+    color: #949996;
+    position: fixed;
+    left: 4%;
+    font-style: Bold;
+	
+}
+/*this style is working for menu-item-list-customer-notification.html webpage*/
+.items-for-menu {
+    top: 8%;
+    position: fixed;
+    left: 7%;
+    font-size: 30px;
+}
+/*this style working under edit-menu-item webpage for save menu*/
+.save-button1{
+    border: none;
+}
+/*this style is used for the price lable*/
+.price-size {
+    size: 69;
+}
+/*this style used for color of links*/
+a {
+    color: #000000;
+}
+/*.min-width-for-price{
+	min-width:30;
+}*/
+.font-style{
+    font-weight: bold;
+}
+
+.font-style1{
+    font-weight: bold;
+}
+/*this style working under cart.html webpage*/
+.cart-lable{
+    top: 11%;
+    position: fixed;
+    left: 8%;
+    font-size: 30px;
+    font-family: Arial;
+}
+/*for menu-item-list-admin* and alignment*/
+.center{
+		text-align: center;
+	
+}
+/*this css sryle property used for alignment is webpages*/
+.right{
+		text-align: right;
+	
+}
+/*this css style property used edit-menu-itenm  webpages*/
+.Edit-Menu-items{
+    top: 8%;
+    position: fixed;
+    left: 7.9%;
+    height: 6%;
+    font-size: 30px;
+}
+/*this style work under cart-empty webpage for the link*/
+.for-link{
+    color: #298fc2;
+}

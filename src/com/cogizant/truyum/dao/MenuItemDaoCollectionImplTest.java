@@ -12,6 +12,7 @@ public class MenuItemDaoCollectionImplTest {
         testGetMenuItemListAdmin();
         testGetMenuItemListCustomer();
         testModifyMenuItem();
+        testGetMenuItemListAdmin();
         testGetMenuItem();
     }
 
