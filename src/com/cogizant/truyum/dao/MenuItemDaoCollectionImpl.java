@@ -10,7 +10,7 @@ import com.cognizant.truyum.util.DateUtil;
 public class MenuItemDaoCollectionImpl implements MenuItemDao {
     private static List<MenuItem> menuItemList;
 
-    public MenuItemDaoCollectionImpl() {
+    public MenuItemDaoCollectionImpl() {//Constructor
         if (menuItemList == null || menuItemList.isEmpty()) {
             MenuItem item1 = new MenuItem(1, "Sandwich", 99.00f, true,
                     DateUtil.convertToDate("15/03/2017"), "Main Course", true);

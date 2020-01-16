@@ -55,11 +55,11 @@ table {
 }
 
 .truYum {
-    top: -1.5%;
+    top: 1%;
     position: fixed;
     font-family: Arial;
     font-size: 30px;
-    left: 2%;
+    left: 7%;
     color: #f7f5f5;
 }
 /*this is used for menu */
