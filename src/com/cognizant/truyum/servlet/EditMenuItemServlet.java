@@ -21,28 +21,29 @@ public class EditMenuItemServlet extends HttpServlet {
         long id = Long.parseLong(request.getParameter("id"));
         String name = request.getParameter("name");
         float price = Float.parseFloat(request.getParameter("price"));
-        String isactive = request.getParameter("Active");
+        String isActive = request.getParameter("active");
         String dateOfLaunch = request.getParameter("dateOfLaunch");
         String category = request.getParameter("category");
-        String isfreeDelivery = request.getParameter("freeDelivery");
+        String isFreedelivery = request.getParameter("freeDelivery");
         boolean active = false;
-        boolean freeDelivery = false;
-        if (isactive.equals("No")) {
+        boolean Freedelivery = false;
+        if (isActive.equals("No")) {
             active = false;
         } else {
             active = true;
         }
 
-        if (isfreeDelivery == null) {
-            freeDelivery = false;
+        if (isFreedelivery == null) {
+            Freedelivery = false;
         } else {
-            freeDelivery = true;
+            Freedelivery = true;
         }
         MenuItem menuItem = new MenuItem(id, name, price, active,
-                DateUtil.convertToDate(dateOfLaunch), category, freeDelivery);
+                DateUtil.convertToDate(dateOfLaunch), category, Freedelivery);
         MenuItemDao menuItemDao = new MenuItemDaoCollectionImpl();
         menuItemDao.modifyMenuItem(menuItem);
-        request.getRequestDispatcher("edit-menu-item-status.jsp").forward(request, response);;
+        request.getRequestDispatcher("edit-menu-item-status.jsp").forward(request, response);
+        ;
     }
 
 }

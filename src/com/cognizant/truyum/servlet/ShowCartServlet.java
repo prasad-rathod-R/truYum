@@ -25,7 +25,7 @@ public class ShowCartServlet extends HttpServlet {
             long userId = 1L;
             CartDao cartDao = new CartDaoCollectionImpl();
             Cart cart = cartDao.getAllCartItems(userId);
-            List<MenuItem> menuItemList= cart.getMenuItemList();
+            List<MenuItem> menuItemList = cart.getMenuItemList();
             double price = 0.0;
             for (MenuItem menuItem : menuItemList) {
                 price = price + menuItem.getPrice();

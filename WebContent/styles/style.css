@@ -37,11 +37,11 @@ table {
     position: fixed;
     left: 24%;
     color: #32d172;
-	font-weight:bold;
+    font-weight: bold;
 }
 
 .cart {
-    top: 12%;
+    top: 7%;
     position: fixed;
     left: 8%;
     font-size: 30px;
@@ -55,11 +55,11 @@ table {
 }
 
 .truYum {
-    top: 1%;
+    top: -1.5%;
     position: fixed;
     font-family: Arial;
     font-size: 30px;
-    left: 7%;
+    left: 3%;
     color: #f7f5f5;
 }
 /*this is used for menu */
@@ -139,7 +139,7 @@ footer {
     height: 10%;
 }
 /*this style working as style for menu-items-for-admin-list webpage*/
-.menu-items-for-admin-list{
+.menu-items-for-admin-list {
     top: 8%;
     position: fixed;
     left: 7.9%;
@@ -177,7 +177,7 @@ footer {
     position: fixed;
     left: 6.7%;
     min-width: 40%;
-	font-family:calibri;
+    font-family: calibri;
 }
 /*this style working under cart-notification*/
 .crt-for-notification {
@@ -195,7 +195,7 @@ footer {
     height: 10%;
 }
 /*for edit menu item status*/ /*where mit refers to menu item*/
-.edit-for-status{
+.edit-for-status {
     top: 12%;
     position: fixed;
     font-size: 29;
@@ -203,13 +203,12 @@ footer {
     font-size: 22px;
 }
 /*this style working under duisplaying the message in Csutomer webpage*/
-.for-message-display{
+.for-message-display {
     top: 19%;
     color: #949996;
     position: fixed;
     left: 4%;
     font-style: Bold;
-	
 }
 /*this style is working for menu-item-list-customer-notification.html webpage*/
 .items-for-menu {
@@ -219,7 +218,7 @@ footer {
     font-size: 30px;
 }
 /*this style working under edit-menu-item webpage for save menu*/
-.save-button1{
+.save-button1 {
     border: none;
 }
 /*this style is used for the price lable*/
@@ -233,15 +232,15 @@ a {
 /*.min-width-for-price{
 	min-width:30;
 }*/
-.font-style{
+.font-style {
     font-weight: bold;
 }
 
-.font-style1{
+.font-style1 {
     font-weight: bold;
 }
 /*this style working under cart.html webpage*/
-.cart-lable{
+.cart-lable {
     top: 11%;
     position: fixed;
     left: 8%;
@@ -249,17 +248,19 @@ a {
     font-family: Arial;
 }
 /*for menu-item-list-admin* and alignment*/
-.center{
-		text-align: center;
-	
+.center {
+    text-align: left;
+}
+
+.center-admin {
+    text-align: center;
 }
 /*this css sryle property used for alignment is webpages*/
-.right{
-		text-align: right;
-	
+.right {
+    text-align: right;
 }
 /*this css style property used edit-menu-itenm  webpages*/
-.Edit-Menu-items{
+.Edit-Menu-items {
     top: 8%;
     position: fixed;
     left: 7.9%;
@@ -267,6 +268,22 @@ a {
     font-size: 30px;
 }
 /*this style work under cart-empty webpage for the link*/
-.for-link{
+.for-link {
     color: #298fc2;
+}
+/*this css style sheet working under cart page*/
+.message-Cart-Delete {
+    top: 6%;
+    color: #31eb41;
+    position: fixed;
+    left: 13%;
+    font-size: 23px
+}
+
+.alert-message {
+    top: 6%;
+    color: #31eb41;
+    position: fixed;
+    left: 13%;
+    font-size: 20px
 }

@@ -24,11 +24,12 @@ public class RemoveCartServlet extends HttpServlet {
             long userId = 1L;
             long menuItemId = Long.parseLong(request.getParameter("menuItemId"));
             CartDao cartDao = new CartDaoCollectionImpl();
+            cartDao.removeCartItem(userId, menuItemId);
             Cart cart = cartDao.getAllCartItems(userId);
             List<MenuItem> menuItemList = cart.getMenuItemList();
             double price = 0.0;
-            for (MenuItem menuItem : menuItemList) {
-                price = price + menuItem.getPrice();
+            for (MenuItem MenuItem : menuItemList) {
+                price = price + MenuItem.getPrice();
             }
             cart.setTotal(price);
             request.setAttribute("menuItem", menuItemList);// carry all the items of specific user
