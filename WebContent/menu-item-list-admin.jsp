@@ -46,11 +46,7 @@
 
                 <td><a href="ShowEditMenuItem?menuItemId=${menuItem.getId()}">Edit</a></td>
             </tr>
-
-
-
         </c:forEach>
-        <tr>
     </table>
     <footer>
     <p>Copyright &copy;2019</p>
